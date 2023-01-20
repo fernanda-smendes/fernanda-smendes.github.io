@@ -1,0 +1,14 @@
+body {
+    font-family: 'Dosis', sans-serif;
+    background-color: hsl(265, 21%, 82%);
+}
+
+.meu-nome {
+    color: rgb(37, 8, 58);
+    background-color: rgb(134, 112, 161);
+}
+
+.imagem {
+    border-radius: 25%;
+}
+
