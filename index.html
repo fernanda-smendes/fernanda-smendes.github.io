@@ -14,38 +14,55 @@
 <link rel="stylesheet" href="./style.css">
 <body>
     <header>
-        <br><p>Tenho 24 anos, sou casada e tenho um "filho" de 4 patas. Iniciei nessa nova trajetória em minha vida como estudante da Trybe para me redescobrir profissionalmente.</p>
+        <br><p>Tenho 24 anos, sou casada e tenho um "filho" de 4 patas. Iniciei essa nova trajetória em minha vida como estudante da Trybe com o objetivo principal de me redescobrir profissionalmente.</p>
     </header>
 
     <hr><br><br>
 
+    <nav>
+        <ol> 
+            <li><a href="#nome">Nome Completo</a></li>
+            <li><a href="#natalidade">Natalidade</a></li>
+            <li><a href="#habilidades">Principais habilidades</a></li>
+            <li><a href="#site">Link para página que gosta atualmente</a></li>
+            <li><a href="#imagem">Link para imagem</a></li>
+        </ol>
+    </nav>
+
     <section>
-        <h1 class="meu-nome">Fernanda dos Santos Mendes</h1>
+        <h1 id="nome" class="meu-nome">Fernanda dos Santos Mendes</h1>
     </section>
 
     <figure> 
-        <img class="imagem" src="Perfil.jpeg" width="350px" alt="Fernanda Mendes">
+        <img id="foto" class="imagem" src="Perfil.jpeg" width="350px" alt="Fernanda Mendes">
     </figure>
 
     <hr>
     
     <article>
-        <p><em>Nascida em Mogi das Cruzes/SP e moro atualmente em <strong>Videira/SC</strong></em></p>
+        <p id="natalidade"><em>Nascida em Mogi das Cruzes/SP e moro atualmente em <strong>Videira/SC</strong></em></p>
     </article>
 
     <hr><br><br>
 
     <section>
-            <h2>Minhas Habilidades</h2>
-        <ul>
+            <h2 id="habilidades">Minhas Habilidades</h2>
+        <ul class="lista">
             <li><strong><em>Comunicação</em></strong></li>
             <li>Desenho livre</li>
             <li>Artesanato</li>
             <li>Decoração</li>
             <li>Pintura aquarela</li>
             <li>Cálculos matemáticos simples</li>
-        </ul>
+        </ul><br><br>
     </section>
 
+    <footer>
+        <a id="site" href="https://www.w3schools.com/css/" target="_blank"> Códigos CSS</a>
+
+    <br><hr><br>
+
+        <a id="imagem" href="#foto">Foto</a>
+    </footer>
 </body>
 </html>
