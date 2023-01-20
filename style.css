@@ -1,14 +1,38 @@
 body {
     font-family: 'Dosis', sans-serif;
     background-color: hsl(265, 21%, 82%);
+    font-size: 20px;
+}
+header {
+max-width: 80%;
+margin-left: 20px;
 }
 
 .meu-nome {
     color: rgb(37, 8, 58);
     background-color: rgb(134, 112, 161);
+    letter-spacing: 10px;
+    border-color: rgb(37, 8, 58);
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
 }
 
 .imagem {
     border-radius: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.lista {
+    max-width: 50%;
+    margin-left: 30px;
+}
+
+article {
+    text-align: center;
+    border-color: rgb(37, 8, 58);
+    border-style: solid;
+    border-width: 1px;
+}
